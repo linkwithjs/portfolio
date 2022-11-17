@@ -1,0 +1,11 @@
+.contact {
+  flex-direction: column;
+}
+
+hr {
+  height: 1px;
+  border-top-width: 1px;
+  color: #fcfcfc;
+  background-color: #fcfcfc;
+  border-color: #cdcdff;
+}
