@@ -18,26 +18,26 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: "Project 1",
+    name: "eCommerce-api",
     description:
-      "Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam",
-    stack: ["SASS", "TypeScript", "React"],
+      "eCommerce-api was an api for eCommerce android app. It was developed for the partial fulfillment of the college project.",
+    stack: ["Node", "Express"],
     sourceCode: "https://github.com",
     livePreview: "https://github.com",
   },
   {
-    name: "Project 2",
+    name: "eClass-api",
     description:
-      "Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam",
-    stack: ["SASS", "TypeScript", "React"],
+      "was an api for simple LMS type android app. It was developed for the partial fulfillment of the college project.",
+    stack: ["Node", "Express"],
     sourceCode: "https://github.com",
     livePreview: "https://github.com",
   },
   {
-    name: "Project 3",
+    name: "WeatherApp ",
     description:
-      "Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam",
-    stack: ["SASS", "TypeScript", "React"],
+      "WeatherApp was a simple app for showing weather by fetching data from the server.",
+    stack: ["Node", "Express & Hadnlebars"],
     sourceCode: "https://github.com",
     livePreview: "https://github.com",
   },
@@ -60,6 +60,8 @@ const education = [
   {
     college: "Oxford college of Engineering and Management.",
     university: "Pokhara University",
+    faculty: "Science and Technology",
+    program: "BCA",
   },
 ];
 

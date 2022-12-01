@@ -8,6 +8,9 @@ const Education = () => {
         {education.map((educations) => (
           <div className="wrapper">
             <div className="one">{educations.college}</div>
+            <div className="one">{educations.university}</div>
+            <div className="one">{educations.faculty}</div>
+            <div className="one">{educations.program}</div>
           </div>
         ))}
       </div>

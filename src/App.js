@@ -5,9 +5,10 @@ import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
 import Skills from "./components/Skills/Skills";
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
-import Contact from "./components/Contact/Contact";
+// import Contact from "./components/Contact/Contact";
 import Education from "./components/Education/Education";
 // import Footer from './components/Footer/Footer'
+import Footer from "./components/Footer/Footer";
 import "./App.css";
 
 const App = () => {
@@ -16,17 +17,16 @@ const App = () => {
   return (
     <div id="top" className={`${themeName} app`}>
       <Header />
-
       <main>
         <About />
         <Projects />
         <Skills />
-        <Contact />
+        {/* <Contact /> */}
         <Education />
       </main>
 
       <ScrollToTop />
-      {/*<Footer /> */}
+      <Footer />
     </div>
   );
 };
