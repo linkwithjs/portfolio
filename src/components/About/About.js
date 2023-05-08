@@ -25,8 +25,8 @@ const About = () => {
       {role && <h3 className="about__role">A {role}.</h3>}
       <p className="about__desc">{description && description}</p>
       <p>
-        I have been nearly coding for about 1 year in React Js. I am certified
-        Full Stack Front-End Web Developer. Offering you excellent communication
+        I have been nearly coding for about 0.6 year in Java,NodeJs & ReactJs. I am
+        Full Stack Developer. Offering you excellent communication
         and good judgment and a hardworking and passionate job seeker with
         strong organizational skills eager to learn new things. Ready to help
         team achieve company goals.
